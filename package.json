@@ -1,0 +1,27 @@
+{
+  "name": "online-judge",
+  "version": "1.0.0",
+  "description": "Online Web-App made using Compilex library of node.js",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compilex": "^0.7.4",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varshneypragyan/Online-Judge.git"
+  },
+  "author": "Pragyan Varshney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varshneypragyan/Online-Judge/issues"
+  },
+  "homepage": "https://github.com/varshneypragyan/Online-Judge#readme"
+}

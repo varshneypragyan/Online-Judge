@@ -1,0 +1,56 @@
+
+<html>
+<head>
+	<title>Compilex</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"	></link>
+</head>
+<body>
+<div class="container">
+
+<div class="jumbotron"><h1>Compilex</h1></div>
+
+<form id="myform" name="myform" method="post" action="compilecode">
+<h3>Code</h3>
+<textarea rows="13" cols="100" class="form-control" id="code" name="code" placeholder="Paste the code here"></textarea> 
+<br/>
+<h3>Input</h3>
+<textarea rows="10" cols="100" class="form-control" id="input" name="input" placeholder="Enter the Input here" ></textarea> 
+<br/>
+<div class="form-group"> <label for="language">Language:</label>
+  <select id="language" class="form-control" name="lang">
+  <option value="C">C</option>
+  <option value="C++">C++</option>
+  <option value="Java">Java</option>  
+  <option value="Python">Python</option> 
+  <option value="CS">C#</option>  
+  <option value="VB">VB</option>  
+</select> </div>
+<!-- <div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Action <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div> -->
+
+
+<div class="radio radio-inline">
+	<label>Compile With Input: </label>
+	<label> <input type="radio" name="inputRadio" id="inputRadio" value="true">Yes</label>
+	<label> <input type="radio" name="inputRadio" id="inputRadio" value="false">No</label>
+</div> 
+
+<div class="container">
+	<input type="submit" value="Submit" class="btn btn-primary" name="submit" />
+</div>
+
+</form>
+</div>
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
