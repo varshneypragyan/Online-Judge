@@ -4,10 +4,10 @@
   "description": "Online Web-App made using Compilex library of node.js",
   "main": "app.js",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "compilex": "^0.7.4",
     "ejs": "^3.1.3",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "path": "^0.12.7"
   },
   "devDependencies": {},
